@@ -7,17 +7,18 @@ There are two versions of the tool: discord bot and terminal program. Feel free 
    ```
     pip install -r requirements.txt
    ```
-  Ensure that you're using python version 3.10+
+Ensure that you're using python version 3.10+
   ```
     python3 --version
   ```
-  Type the wallet you're interested in in the required field and wait for any updates from the wallet. 
+Run it with ``` python3 wallet_checker_terminal.py ```
+Type the wallet you're interested in in the required field and wait for any updates from the wallet. 
 
 ### 2. Discord bot version
-  Install it on VPS or run in locally on your computer. Make sure to past your discord bot token on the 8th line:
+Install it on VPS or run in locally on your computer. Make sure to past your discord bot token on the 8th line:
   ```
     TOKEN = "YOUR TOKEN"
   ```
-  Type /check as a discord command and then paste the wallet address as attribute and wait for updates.
+Type /check as a discord command and then paste the wallet address as attribute and wait for updates.
 
-  ## Feel free to use this tool while Solana hasn't gone extinct.
+## Feel free to use this tool while Solana hasn't gone extinct.
